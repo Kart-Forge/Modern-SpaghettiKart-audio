@@ -2,7 +2,7 @@
 
 ## Race Tracks
 
-| Track Name            | Filename             |
+| Track Name            | Audio filename             |
 | --------------------- | --------------------------- |
 | Banshee Boardwalk     | `banshee_boardwalk`         |
 | Bowser's Castle (N64) | `bowsers_castle`            |
@@ -24,7 +24,7 @@
 ## Battle Courses
 
 
-| Battle Course Name | Filename |
+| Battle Course Name | Audio filename |
 | ------------------ | --------------- |
 | Big Donut          | `battle_arenas` |
 | Block Fort         | `choco_mountain` |
@@ -34,7 +34,7 @@
 ## General
 
 
-| Description                 | Filename          |
+| Description                 | Audio filename          |
 | --------------------------- | ------------------------ |
 | Special command for sound fx  | `sound_player`         |
 | Title Screen                | `title_screen`           |
@@ -57,7 +57,7 @@
 
 ## Official Soundtrack Names
 
-| Song Name | Filename |
+| Song Name | Audio filename |
 |:-------------------------------------|:--------------------------|
 | Mario kart 64 Title Screen | title\_screen |
 | Selection Screens | main\_menu |
