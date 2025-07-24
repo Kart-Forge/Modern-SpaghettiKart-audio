@@ -1,8 +1,4 @@
 {
     "name": "Mario Kart 8 - Super Star",
-    "author": "Nintendo",
-    "loop": {
-        "start": 7367,
-        "end": 794133
-    }
+    "author": "Nintendo"
 }
