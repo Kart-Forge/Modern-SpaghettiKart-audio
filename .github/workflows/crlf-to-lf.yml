@@ -1,0 +1,41 @@
+name: Check and Convert CRLF to LF
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-and-convert-line-endings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Find and Convert CRLF to LF in .json files
+        run: |
+          find . -type f -name "*.json" -print0 | while IFS= read -r -d $'\0' file; do
+            if file -i "$file" | grep -q 'charset=binary'; then
+              echo "Skipping binary file: $file"
+            else
+              if file "$file" | grep -q 'CRLF'; then
+                echo "Converting CRLF to LF in $file"
+                sed -i 's/\r$//' "$file"
+                git config user.name github-actions
+                git config user.email github-actions@github.com
+                git add "$file"
+                git commit -m "Auto: Convert CRLF to LF line endings in $file"
+              fi
+            fi
+          done
+
+      - name: Push Changes
+        run: |
+          if git diff-index --quiet HEAD; then
+            echo "No CRLF line endings were found or converted. No changes to push."
+          else
+            git push
+          fi
