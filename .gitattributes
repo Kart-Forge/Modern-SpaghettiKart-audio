@@ -1,0 +1,4 @@
+# forces json files to be .lf on upload.
+
+*.json text eol=lf
+
