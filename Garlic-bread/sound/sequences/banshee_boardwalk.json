@@ -1,4 +1,7 @@
 {
     "name": "N64 Banshee Boardwalk - Mario Kart 8 Deluxe Fanmade Music",
-    "author": "Id (No Purpose) - poop_idnp"
+    "author": "Id (No Purpose) - poop_idnp",
+    "loop": {
+        "start": 0,
+        "end": 2851184
 }
