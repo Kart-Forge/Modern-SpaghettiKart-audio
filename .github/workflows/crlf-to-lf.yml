@@ -11,6 +11,8 @@ on:
 jobs:
   check-and-convert-line-endings:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # This line grants write access to the GITHUB_TOKEN
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
