@@ -15,7 +15,7 @@ jobs:
       contents: write # This line grants write access to the GITHUB_TOKEN
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Find and Convert CRLF to LF in .json files
         run: |
