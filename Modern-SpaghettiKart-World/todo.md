@@ -4,7 +4,6 @@ Todo Items:
 | :------------ | :---------------------- | :------------------- |
 | [ ] | bowsers_castle | Bowser's Castle (N64) |
 | [ ] | banshee_boardwalk | Banshee Boardwalk |
-| [ ] | sound_player | Sound player |
 | [ ] | title_screen | Title Screen |
 | [ ] | main_menu | Main Menu |
 | [ ] | start_grid_gp_vs | Start Grid GP/VS |
