@@ -4,7 +4,7 @@ Todo Items:
 | :------------ | :---------------------- | :------------------- |
 | [ ] | bowsers_castle | Bowser's Castle (N64) |
 | [ ] | banshee_boardwalk | Banshee Boardwalk |
-| [ ] | seq_00 | seq_00 (unknown) - quiet? |
+| [ ] | sound_player | Sound_player |
 | [ ] | title_screen | |
 | [ ] | main_menu | |
 | [ ] | start_grid_gp_vs | Start Grid GP/VS |
@@ -12,7 +12,7 @@ Todo Items:
 | [ ] | finish_1st_place | Finish 1st Place |
 | [ ] | finish_2nd_4th_place | Finish 2nd-4th Place |
 | [ ] | finish_5th_8th_place | Finish 5th-8th Place |
-| [ ] | seq_16 | 16 (Unknown) |
+| [ ] | winning_results | Winning Results |
 | [ ] | star_jingle | Star Jingle |
 | [ ] | game_over | Game Over |
 | [ ] | start_gird_time_attack | Start Grid Time Attack |
@@ -21,6 +21,8 @@ Todo Items:
 | [ ] | award_ceremony_buildup | Award Ceremony Buildup |
 | [ ] | award_ceremony_1st_3rd | Award Ceremony 1st-3rd |
 | [ ] | award_ceremony_4th_8th | Award Ceremony 4th-8th |
+
+(just check with the more modern list)
 
 🛠️ **Additional To-Do**
 
