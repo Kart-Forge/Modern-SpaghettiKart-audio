@@ -21,7 +21,7 @@ Todo Items:
 | \[ ]    | award\_ceremony\_4th\_8th | Award Ceremony 4th–8th      |
 | \[ ]    | staff\_roll               | Staff Roll                  |
 
-(just rely on the modern names
+(just rely on the modern names)
 
 🛠️ **Additional To-Do**
 
