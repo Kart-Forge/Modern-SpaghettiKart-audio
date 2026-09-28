@@ -1,0 +1,6 @@
+[mod]
+name = "MK HQ Music"
+version = "1.0.0"
+
+[dependencies]
+mk64-assets = "=1.0.0-alpha1"

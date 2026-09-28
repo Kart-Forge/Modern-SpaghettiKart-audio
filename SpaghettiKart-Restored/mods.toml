@@ -1,0 +1,6 @@
+[mod]
+name = "Mk64 Restored"
+version = "1.0.0"
+
+[dependencies]
+mk64-assets = "=1.0.0-alpha1"
